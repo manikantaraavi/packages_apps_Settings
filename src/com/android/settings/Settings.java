@@ -328,4 +328,5 @@ public class Settings extends SettingsActivity {
     // pixelExtended Additions.
     public static class SnowHouseSettingsActivity extends SettingsActivity {}
 
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
