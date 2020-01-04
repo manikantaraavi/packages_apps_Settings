@@ -49,6 +49,7 @@ android_library {
         "res",
         "res-pixel",
         "SnowHouse/res",
+        "TouchGestures/res"
     ],
 
     aaptflags: ["--extra-packages org.pixelextended.snowhouse",
