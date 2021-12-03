@@ -118,4 +118,12 @@
             settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
         <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
     </com.android.settings.custom.preference.RemotePreference>
+
+    <Preference
+            android:key="double_tap"
+            android:fragment="com.android.settings.gestures.DoubleTapAmbientSettings"
+            android:title="@string/doze_double_tap_title"
+            android:summary="@string/doze_double_tap_summary"
+            settings:userRestriction="no_ambient_display" />
+
 </PreferenceScreen>
